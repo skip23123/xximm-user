@@ -1,0 +1,12 @@
+server:
+  port: 80
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: uAiqwVwjJ8-i
+    url: jdbc:mysql://47.104.189.24/xximm_user?useSSL=false
+  jpa:
+      hibernate:
+            naming:
+              physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
